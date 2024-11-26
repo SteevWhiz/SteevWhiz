@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steev Whiz - The Cheesiest Meme Token</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #f6e8b1;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: #ffc107;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 3rem;
+            color: #fff;
+            text-shadow: 2px 2px #ff9800;
+        }
+        header p {
+            font-size: 1.2rem;
+            color: #fff;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background: linear-gradient(135deg, #fff8e1, #ffecb3);
+        }
+        .hero img {
+            max-width: 300px;
+            margin: 20px auto;
+        }
+        .hero h2 {
+            font-size: 2rem;
+            margin-top: 20px;
+            color: #ff9800;
+        }
+        .hero p {
+            font-size: 1.1rem;
+            margin: 10px auto;
+            max-width: 600px;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 50px 20px;
+        }
+        .feature {
+            background: #fff;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            flex: 1 1 300px;
+            max-width: 300px;
+        }
+        .feature img {
+            max-width: 100px;
+            margin-bottom: 15px;
+        }
+        .feature h3 {
+            font-size: 1.5rem;
+            color: #ff9800;
+        }
+        .feature p {
+            font-size: 1rem;
+        }
+        .footer {
+            background: #ffc107;
+            padding: 20px;
+            text-align: center;
+        }
+        .footer p {
+            color: #fff;
+            font-size: 0.9rem;
+        }
+        .button {
+            display: inline-block;
+            background: #ff9800;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1rem;
+            margin-top: 20px;
+        }
+        .button:hover {
+            background: #e68a00;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Steev Whiz</h1>
+        <p>The Cheesiest Meme Token on Solana</p>
+    </header>
+
+    <div class="hero">
+        <img src="your-steev-whiz-logo.png" alt="Steev Whiz Logo">
+        <h2>Steev Whiz is here to melt your heart and the blockchain!</h2>
+        <p>Join the cheesiest and funniest community in the crypto world. Steev Whiz is more than a meme token; it's a movement of cheese lovers and meme enthusiasts aiming to go viral!</p>
+        <a href="#" class="button">Join the Movement</a>
+    </div>
+
+    <div class="features">
+        <div class="feature">
+            <img src="cheese-icon.png" alt="Community">
+            <h3>Community</h3>
+            <p>Steev Whiz is all about fostering a fun-loving, meme-loving community that brings people together.</p>
+        </div>
+        <div class="feature">
+            <img src="viral-icon.png" alt="Viral Potential">
+            <h3>Viral Potential</h3>
+            <p>With our cheesy vibes and meme culture, Steev Whiz is designed to take the internet by storm.</p>
+        </div>
+        <div class="feature">
+            <img src="blockchain-icon.png" alt="Built on Solana">
+            <h3>Built on Solana</h3>
+            <p>Fast, scalable, and eco-friendly. Steev Whiz leverages the power of Solana blockchain.</p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 Steev Whiz. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
